@@ -1,0 +1,3 @@
+
+// function from https://halgatewood.com/how-to-customize-the-pin-it-button-for-pinterest
+function pinIt(){var a=document.createElement("script");a.setAttribute("type","text/javascript"),a.setAttribute("charset","UTF-8"),a.setAttribute("src","../../assets.pinterest.com/js/pinmarklet2a3b.js?r="+99999999*Math.random()),document.body.appendChild(a)}function apss_open_in_popup_window(a,b){a.preventDefault(),window.open(b,"fdadas","toolbars=0,width=640,height=320,left=200,top=200,scrollbars=1,resizable=1")}jQuery(document).ready(function(a){var b=[];a(".apss-count").each(function(){var c=a(this).attr("data-social-detail");a.inArray(c,b)==-1&&b.push(c)})});
